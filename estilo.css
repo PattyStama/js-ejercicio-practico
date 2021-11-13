@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    text-align: center;
+    color: #80D0C7;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-left: 10px;
+    color: #1B71A2;
+    padding: 10px;
+}
+
+.cuadrado{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    
+    
+    align-self: center;
+    justify-content: center;
+}
+
+.card-cuadrado{
+    border: 3px solid #F6416C;
+    margin-left: 15px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input{
+    align-self: center;
+    justify-content: center;
+    height: 30px;
+    margin-inline: 15px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)
+}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 40px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+}
+
+
+.btn-grad1 {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btn-grad1 {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad1:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
