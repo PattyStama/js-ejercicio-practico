@@ -38,6 +38,7 @@ main{
 .cuadrado{
     display:inline;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;        
 }
 
@@ -47,6 +48,7 @@ main{
     margin-bottom: 55px;  
     width: 550px;
     height: 550px;
+    background-color: white;
 }
 
 .dib-cuadrado{
@@ -275,6 +277,11 @@ input{
     border: 3px solid rebeccapurple;
     margin-left: 15px;
     margin-top: 100px;
+}
+
+.dib-circulo{
+    width: 180px;
+    margin: 15px 15px;
 }
 
 .title{
