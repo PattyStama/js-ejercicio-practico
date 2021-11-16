@@ -34,6 +34,14 @@ function areatr(base, altura){
 //console.log("El area del triangulo es: " + areatr + "cm^2");
 console.groupEnd();
 
+//codigo del triangulo isosceles
+console.group("Isosceles");
+function isosceles(lad1,base1){
+    return (Math.sqrt((lad1*lad1)-((base1*base1)/4)))
+}
+console.groupEnd();
+
+
 //codigo del circulo
 console.group("Circulo");
 const pi= Math.PI;
@@ -59,6 +67,9 @@ function areacirculo(radio){
 //console.log("El area del circulo es: " + areacirculo + "cm^2");
 console.groupEnd();
 
+
+/*----------------------------------------------------------------*/
+
 //codigo botones de perimetro y cuadrado
 function calcularPerimetroCuadrado(){
     const input= document.getElementById("InputCuadrado");
@@ -74,4 +85,65 @@ function calcularAreaCuadrado(){
 
     const area=areacuadrado(value);
     alert(area);
+}
+
+//codigo botones de perimetro y triangulo
+function calcularPerimetroTriangulo(){
+    const Inputlado1= document.getElementById("Inputlado1");
+    const Inputlado2= document.getElementById("Inputlado2");
+    const Inputbase= document.getElementById("Inputbase");
+    const l1= Number(Inputlado1.value);
+    const l2= Number(Inputlado2.value);
+    const b= Number(Inputbase.value);
+
+    const perimetro=perimetrotr(l1,l2,b);
+    alert(perimetro);
+}
+
+function calcularAreaTriangulo(){
+    const Inputbase= document.getElementById("Inputbase");
+    const Inputh= document.getElementById("Inputh");
+    const base= Number(Inputbase.value);
+    const altura= Number(Inputh.value);
+
+    const area=areatr(base,altura);
+    alert(area);
+}
+
+//codigo isosceles
+function calcularAlturaIsos(){
+    const Inputlados= document.getElementById("Inputlados");
+    const Inputbase1= document.getElementById("Inputbase1");
+    const lad1= Number(Inputlados.value);
+    const base1= Number(Inputbase1.value);
+
+    const altura=isosceles(lad1, base1);
+    alert(altura);
+}
+
+
+//codigo botones de perimetro y circulo
+function calcularDiametro(){
+    const Inputradio= document.getElementById("Inputradio");
+    const radio= Inputradio.value;
+
+    const diametro=diametrocirculo(radio);
+    alert(diametro);
+}
+
+function calcularPerimetroCirculo(){
+    const Inputradio= document.getElementById("Inputradio");
+    const radio= Inputradio.value;
+    
+    const diametro=perimetrocirculo(radio);
+    alert(diametro);
+    
+}
+
+function calcularAreaCirculo(){
+    const Inputradio= document.getElementById("Inputradio");
+    const radio= Inputradio.value;
+    
+    const diametro=areacirculo(radio);
+    alert(diametro);
 }

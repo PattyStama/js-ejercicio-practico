@@ -8,6 +8,13 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    background-image: url("./images/5411539.jpg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
 h1{
     text-align: center;
     color: #80D0C7;
@@ -21,23 +28,30 @@ h2{
     padding: 10px;
 }
 
-.cuadrado{
+main{
     position: relative;
-    width: 250px;
-    height: 300px;
-    
-    
-    align-self: center;
-    justify-content: center;
+    display: inline-block;
+    flex-direction: row;
+}
+
+/*Cuadrado*/
+.cuadrado{
+    display:inline;
+    align-items: center;
+    justify-content: center;        
 }
 
 .card-cuadrado{
     border: 3px solid #F6416C;
-    margin-left: 15px;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    
+    margin-left: 15px;  
+    margin-bottom: 55px;  
+    width: 550px;
+    height: 550px;
+}
+
+.dib-cuadrado{
+    width: 450px;
+    margin: 15px 15px;
 }
 
 .title{
@@ -95,3 +109,246 @@ input{
    color: #fff;
    text-decoration: none;
  }
+/*fin cuadrado*/
+
+/*Triangulo*/
+.triangulo{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    align-self: center;
+    justify-content: center;
+}
+
+.card-triangulo{
+    border: 3px solid #28C76F;
+    margin-left: 15px;
+    
+}
+
+.dib-tr{
+    width: 280px;
+    margin: 15px 15px;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input{
+    align-self: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)
+}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 40px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+}
+
+.btn-grad1 {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btn-grad1 {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad1:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+/*fin triangulo*/
+
+/*Triangulo Isosceles*/
+.isosceles{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    align-self: center;
+    justify-content: center;
+}
+
+.card-isosceles{
+    border: 3px solid #28C76F;
+    margin-left: 15px;
+    
+}
+
+.dib-isos{
+    width: 280px;
+    margin: 15px 15px;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input{
+    align-self: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)
+}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 40px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+}
+
+.btn-grad1 {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btn-grad1 {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad1:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+/*fin triangulo*/
+
+
+/*Circulo*/
+.circulo{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    align-self: center;
+    justify-content: center;
+}
+
+.card-circulo{
+    border: 3px solid rebeccapurple;
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input{
+    align-self: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.btn-diametro {
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%)}
+.btn-diametro {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-diametro:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.btn-grad {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)
+}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 40px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+}
+
+.btn-grad1 {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btn-grad1 {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad1:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+/*fin circulo*/
