@@ -2,15 +2,15 @@ section{
     position: relative;
     display: inline;
     text-align: center; 
+    border: none;
 }
 
 div{
     position: absolute;
     flex-direction: column;
-    border: 3px ridge aquamarine;
-    border-radius: 10px;
     width: 220px;
     height: 500px;
+    margin-left: 15px;
 }
 
 div img{
