@@ -5,9 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descuentos y porcentajes</title>
+    <link rel="stylesheet" href="./estilo_descuentos.css">
 </head>
 <body>
     
+    <main>
+        <section>
+            <div>
+                <img src="./images/Descuentos.jpg" alt="descuentos">
+                <h2>Calculo de precio final con descuento aplicado</h2>
+                <form>
+                    <label for="Inputprecio" class="title">
+                        Escriba precio de producto:
+                    </label>
+                    <input id="Inputporcentaje" type="number"/>
+
+                    <label for="Inputprecio" class="title">
+                        Escriba descuento a aplicar:
+                    </label>
+                    <input id="Inputporcentaje" type="number"/>
+
+                    <button type="button" class="btn-grad1" onclick="calcularAreaCirculo()">
+                        Calcular el área
+                    </button>
+
+                    <h3>Resultado!!!!</h3>
+                </form>
+            
+            </div>
+        </section>
+    </main>
 
     <script src="./descuentos.js"></script>
 </body>
