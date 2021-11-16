@@ -9,5 +9,6 @@ function calcularPrecio(){
     const desc= Number(Inputporcentaje.value);
 
     const preciofinal=calculopreciofinal(precio,desc);
-    document.getElementById('result').innerText = preciofinal;
+    //document.getElementById('result').innerText = preciofinal;
+    result.innerText= "El precio final con descuento es de $ " + preciofinal;
 }
