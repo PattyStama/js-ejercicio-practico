@@ -17,18 +17,18 @@
                     <label for="Inputprecio" class="title">
                         Escriba precio de producto:
                     </label>
-                    <input id="Inputporcentaje" type="number"/>
+                    <input id="Inputprecio" type="number"/>
 
-                    <label for="Inputprecio" class="title">
+                    <label for="Inputporcentaje" class="title">
                         Escriba descuento a aplicar:
                     </label>
                     <input id="Inputporcentaje" type="number"/>
 
-                    <button type="button" class="desc-button" onclick="calcularAreaCirculo()">
-                        Calcular el área
+                    <button type="button" class="desc-button" onclick="calcularPrecio()">
+                        Calcular el precio con descuento
                     </button>
-
-                    <h3>Resultado!!!!</h3>
+                    <p>Su precio final con descuento incluido es de $</p>
+                    <h3 id="result"></h3>
                 </form>
             
             </div>
