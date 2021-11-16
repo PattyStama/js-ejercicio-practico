@@ -7,4 +7,11 @@
 - formulas
 - implemetar formulas en js
 - crear funciones
-- integras js a html
+- integrar js a html
+
+## porcentajes y descuentos
+
+- formulas
+- implementar formulas
+- funciones
+- integrar js a html
