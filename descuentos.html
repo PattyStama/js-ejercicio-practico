@@ -22,7 +22,16 @@
                     <label for="Inputporcentaje" class="title">
                         Escriba descuento a aplicar:
                     </label>
-                    <input id="Inputporcentaje" type="number"/>
+                    <input id="Inputporcentaje" type="number"/><br>
+
+                    <label for="cupons" class="title">
+                        Seleccione su cupón aquí ↓
+                    <select name="cupons" class="cupons">
+                        <option value="0">No tengo cupón</option>
+                        <option value="15">JuanDC_es_Batman</option> 
+                        <option value="30">pero_no_le_digas_a_nadie</option> 
+                        <option value="25">es_un_secreto</option>
+                    </select>
 
                     <button type="button" class="desc-button" onclick="calcularPrecio()">
                         Calcular el precio con descuento
